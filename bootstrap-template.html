@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
       <title>Hello World</title>
@@ -14,14 +14,12 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
 
+
+    <!-- Link to stylesheet CSS  -->
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-
-
-    <!-- Link to stylesheet CSS  -->
-
-    <i class="fas fa-flag fa-2x"  style="color:red;"></i>
   </head>
 
   <body>
@@ -33,66 +31,138 @@
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav mr-auto">
      <li class="nav-item active">
-       <a class="nav-link" href="#">Experience<span class="sr-only">(current)</span></a>
+       <a class="nav-link Experience" href="#Experience">Experience<span class="sr-only">(current)</span></a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Education</a>
+       <a class="nav-link" href="#Education">Education</a>
      </li>
 
      <li class="nav-item">
-       <a class="nav-link" href="#">Skills</a>
+       <a class="nav-link" href="#Skills">Skills</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="#Contact Information">Contact Information</a>
      </li>
 
    </ul>
  </div>
 </nav>
-
-<div class="jumbotron">
- <h1 class="display-4">Hello, world!</h1>
- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
- <hr class="my-4">
- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-
-   <div class="container">
+<div class="container">
          <div class="row">
            <div class="col-md-12">
-           <img src="image/Logo.png">
+           <img src="LOGO(1).png">
            </div>
          </div>
 
    <!-- SECTION ITEM -->
           <div class="row">
-          <div class="col-md-8">
-          <div id="Experience">Experience</div>
-                  <h3>Heading 2</h3>
-                  <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                    Lorem ipsum dolor.</p>
-          </div>
-          </div>
-    <!-- SECTION ITEM -->
-          <div class="row">
-          <div class="col-md-4">
-            <div id="education">
-            ....
+             <div class="col-md-8">
+           <i class="fal fa-briefcase Fa-7X"></i>
+        <div id="Experience">Experience</div>
+
+          <h3 class="job-title">Staff Writer</h3>
+           <h4 class="organization">Coe College Cosmos </h4>
+           <h5 class= "date">Fall 2016- Spring 2019</h5>
+           <div class="discription">
+             <p>I wrote weekly articles and took pictures of Coe community events
+            and interviewed a variety of people </p>
             </div>
-            <div id="skills"
-            ...
+
+           <h3 class="job-title">Intern Writer </h3>
+           <h4 class="organization">Cangwu Evening News</h4>
+           <h5 class="date">Jun-August 2018 </h5>
+           <div  class="discription">
+           <p>I conducted interview and wrote news report on social events. I
+             also searched social media and pitched interesting stories to editors
+             for feature topics. Meanwhile, I also edited and posted news on the online
+             platform; analyze click rates and reader feedback.</p>
+           </div>
+
+            <h3 class="job-title">Communication Intern</h3>
+            <h4 class="organization">Xinhua Daily(lianyungang Center)</h4>
+            <h5 class="date">May-July 2017</h5>
+            <div class= "discription">
+            <p>I coordinated and arranged interviews with interviwees
+              via phone or email. I parcipated in feature reports. I also gained
+              insights about operation of media industry in China.</P>
+            </div>
           </div>
+          </div>
+
+          <div class="col-md-4">
+            <i class="fas fa-graduation-cap fa-7x"></i>
+            <div id="education">Education</div>
+                 <ul>
+                   <li>Bachelor of Arts, Communication Studies, Minor in Sociology, Coe College, 2019.
+                   </li>
+                 </ul>
+           <i class="fas fa-tools fa-7x"></i>
+            <div id="skills">Skills</div>
+            <ul class="skills-list">
+                  <!-- item-list -->
+                  <li>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" data-percent="60%" style="width: 60%;">
+                          <span class="sr-only">60% Complete</span>
+                      </div>
+                      <span class="progress-type">Comunication</span>
+                      <span class="progress-completed">60%</span>
+                    </div>
+                  </li>
+                  <!-- /item list -->
+                  <!-- item-list -->
+                  <li>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-2" role="progressbar" data-percent="80%" style="width: 80%;">
+                          <span class="sr-only">80% Complete</span>
+                      </div>
+                      <span class="progress-type">Wordpress</span>
+                      <span class="progress-completed">80%</span>
+                    </div>
+                  </li>
+                  <!-- /item list -->
+                   <!-- item-list -->
+                   <li>
+                     <div class="progress">
+                       <div class="progress-bar progress-bar-3" role="progressbar" data-percent="60%" style="width:60%;">
+                           <span class="sr-only">60% Complete</span>
+                       </div>
+                       <span class="progress-type">Audio editing with Audacity</span>
+                       <span class="progress-completed">60%</span>
+                     </div>
+                   </li>
+                  <!-- /item list -->
+
           </div>
     <!-- SECTION ITEM -->
            <div class="row">
            <div class="col-md-3">
+             <i class="fal fa-id-card fa-7x"></i>
+             <div id="Contact Information">Contact Information</div>
+             <ul class="list-inline dev-icons">
+                       <li class="github">
+                       <a href="https://github.com/Mohan0215"><i class="fab fa-github-square fa-7x"></i></a>
            </div>
            <div class="col-md-3">
+             <li class="linkedin">
+                  <a href="https://www.linkedin.com/in/mohan-xu-8a096b159/"><i class="fab fa-linkedin-in fa-7x"></i></a>
+             </li>
            </div>
            <div class="col-md-3">
+             <li class="twitter">
+                 <a href="https://twitter.com/XuMohan1"><i class="fab fa-twitter-square fa-7x"></i></a>
+             </li>
            </div>
            <div class="col-md-3">
+             <li class="email">
+                 <a href="mailto: yourname@email.com">mxu12310@umd.edu<i class="fas fa-envelope fa-7x"></i></a>
+             </li>
+             </ul>
            </div>
-           </div>
-    </div>
+          </div>
+
+
       <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
