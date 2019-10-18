@@ -1,0 +1,67 @@
+.banner-small {
+display: none;
+}
+
+.banner-large {
+display: block;
+}
+
+@media (max-width: 970px) {
+.banner-small {
+display: block;
+}
+.banner-large {
+display: none;
+}
+}
+
+.date{
+   color: #1DA1F2 !important;
+   font-style: italic;
+   font-family: "Times New Roman," Times, serif;
+ }
+
+#skills {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#Experience{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#education{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+@media (min-width:480px) {
+  #Education, #Contact,#Experience, #Skills{
+   font-size: 20px;
+ }
+  
+}
+
+ #Contact{
+  font-size: 40px;
+  }
+
+p{
+  font-family: "Times New Roman," Times, serif;
+  font-style: normal;
+}
+
+h3{
+  font-weight: bold;
+  font-family: "Times New Roman," Times, serif;
+}
+
+h4{
+  font-family: "Times New Roman," Times, serif;
+}
+
+ 
