@@ -1,52 +1,75 @@
- 
-.date{
-   color: #1DA1F2 !important;
-   font-style: italic;
-   font-family: "Times New Roman," Times, serif;
- }
+ .date{
+  color: #1DA1F2;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
 
 #Skills {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 40px;
+ font-weight: bold;
+ font-style: normal;
+ font-size: 40px;
 }
 
 #Experience{
-  font-weight: bold;
-  font-style: normal;
-  font-size: 40px;
+ font-weight: bold;
+ font-style: normal;
+ font-size: 40px;
 }
 
 #Education{
-  font-weight: bold;
-  font-style: normal;
-  font-size: 40px;
+ font-weight: bold;
+ font-style: normal;
+ font-size: 40px;
 }
 
 
- #Contact{
-  font-size: 40px;
-  }
+#Contact{
+ font-size: 40px;
+ font-style: normal;
+ font-weight: bold;
+ }
 
 p{
-  font-family: "Times New Roman," Times, serif;
-  font-style: normal;
+ font-family: "Times New Roman," Times, serif;
+ font-style: normal;
 }
 
 h3{
-  font-weight: bold;
-  font-family: "Times New Roman," Times, serif;
+ font-weight: bold;
+ font-family: "Times New Roman," Times, serif;
 }
 
 h4{
-  font-family: "Times New Roman," Times, serif;
+ font-family: "Times New Roman," Times, serif;
 }
 
 
-.wordpress {width: 80%; background-color: #4CAF50;}
-.audacity {width: 60%; background-color: #2196F3;}
-.communication {width: 80%; background-color: #f44336;}
+
+.progress {
+   position: relative;
+ height: 25px;
+}
+.progress > .progress-type {
+ position: absolute;
+ left: 0px;
+ font-weight: 800;
+ padding: 3px 30px 2px 10px;
+}
+.progress > .progress-completed {
+ position: absolute;
+ right: 0px;
+ font-weight: 800;
+ padding: 3px 10px 2px;
+}
+
+.email{
+  color: #1DA1F2;
+  align-item: top;
+
+}
+
 
 @media only screen and (max-width: 600px;) {
-  #Education {
-    font-size: 30px;
+ #Education {
+   font-size: 30px;
+
