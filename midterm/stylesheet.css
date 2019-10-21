@@ -1,0 +1,33 @@
+
+
+ #byline, date {
+   font-family: helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+ }
+
+ .h1 {
+   font-family: sans-serif;
+   font-size: 36px;
+ }
+
+body, p {
+  font-family: Georgia, "Times New Roman," "generic serif";
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+h2,h3,h5,h6 {
+  font-size: 25px;
+}
+
+blockquote {
+  color: red;
+  font-size: 18px;
+  font-family: serif;
+}
+/* Comment */
