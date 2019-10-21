@@ -1,0 +1,50 @@
+
+.date{
+   color: #1DA1F2 !important;
+   font-style: italic;
+   font-family: "Times New Roman," Times, serif;
+ }
+
+#Skills {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#Experience{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#Education{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+ #Contact{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold; 
+  }
+
+p{
+  font-family: "Times New Roman," Times, serif;
+  font-style: normal;
+}
+
+h3{
+  font-weight: bold;
+  font-family: "Times New Roman," Times, serif;
+}
+
+h4{
+  font-family: "Times New Roman," Times, serif;
+}
+
+
+.wordpress {width: 80%; background-color: #4CAF50;}
+.audacity {width: 60%; background-color: #2196F3;}
+.communication {width: 80%; background-color: #f44336;}
