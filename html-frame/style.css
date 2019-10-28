@@ -1,4 +1,4 @@
-h1, footer{
+h1, footer {
   text-align: center;
 }
 h2,h3,h4 {
@@ -8,13 +8,19 @@ h2,h3,h4 {
 
 h1{
 font-size: 36px;
+font-family: sans-serif;
 }
 
 p{
-  font-family: sans-serif;
+  font-family: Georgia;
   font-size: 16px;
 }
 
-byline {
+figcaption {
+  font-family: sans-serif;
+}
+
+#byline {
   text-align: center;
+  font-family: sans-serif;
 }
