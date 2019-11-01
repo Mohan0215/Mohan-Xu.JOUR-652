@@ -24,3 +24,7 @@ figcaption {
   text-align: center;
   font-family: sans-serif;
 }
+
+footer {
+ border-top: 5px solid black;
+}
