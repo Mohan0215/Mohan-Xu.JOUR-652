@@ -7,6 +7,8 @@ h2,h3,h4 {
 }
 
 h1{
+margin-top: 20px;
+padding-top: 10px;
 font-size: 36px;
 font-family: sans-serif;
 }
@@ -27,4 +29,5 @@ figcaption {
 
 footer {
  border-top: 5px solid black;
+ padding: 10px;
 }
