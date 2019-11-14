@@ -130,7 +130,7 @@
 
    <div class="graphic-container">
   <h2>What race are school shooters likely to be?</h2>
-   <div id="ShooterRaceChart"></div>
+   <div id="RaceChart"></div>
    </div>
 <!-- End Text component-->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -163,7 +163,7 @@
      bindto: '#shootingsByWhereChart',
      data: {
        columns: [
-         ['City', 101],
+         ['City', 10],
          ['Suburb', 58],
          ['Town', 24],
          ['Rural', 31],
@@ -175,11 +175,11 @@
      }
    });
    var chart3 = c3.generate({
-      bindto: '#ShooterRaceChart',
+      bindto: '#RaceChart',
       data: {
         // iris data from R
         columns: [
-          ['Asian', 1],
+          ['Asian', 10],
           ['American Indian', 3],
           ['Black', 35],
           ['Hispanic', 6],
