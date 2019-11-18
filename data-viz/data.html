@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 
 <html lang="en">
 <head>
@@ -31,7 +31,6 @@
 </head>
 <body>
 
-<<<<<<< HEAD
  <!-- NavBar -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
    <a class="navbar-brand" href="#">Navbar</a>
@@ -110,83 +109,6 @@ However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8
   <div class="graphic-container">
  <h2>Story map</h2>
  <iframe src="https://uploads.knightlab.com/storymapjs/c4d67751ec5e53ff777202d2adb3476e/international-students-stress-project/draft.html" frameborder="0" width="100%" height="800"></iframe>
-=======
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <!-- Link -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <!-- End Link -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-  <!-- End NavBar -->
-
-  <!-- Start image component -->
-  <h1>Big Headline</h1>
-  <div id="byline">By Mohan Xu</div>
-
-<!-- Start Text component-->
-
-  <!-- END first graphic container-->
-  <div class="graphic-container">
-    <h2>Examing the international student enrollment between 2014 and 2018</h2>
-    <div id="EnrollmentbyyearChart"></div>
-    <em>Source: Data collected by UMD</em>
-  </div>
-
-   <div class="graphic-container">
-   <h2>The Number of Stress</h2>
-   <em>Source: Data collected by the Center for Collegiate Mental Health at Penn State</em>
-   <div id="StressChart"></div>
-
-   </div>
-
-   <div class="graphic-container">
-   <h2>The Number of International Students who are Seeking Mental health Treatments</h2>
-   <em>Source: Data collected by the Center for Collegiate Mental Health at Penn State</em>
-   <div id="InternationalStudentsChart"></div>
-
-   </div>
-
-   <div class="graphic-container">
-  <h2>What nationality are school students likely to come to seek counseling service at UMD in 2018?</h2>
-   <div id="NationalityChart"></div>
-   <em>Source: Data collected by UMD Counseling Center</em>
-   </div>
-
-   <div class="graphic-container">
-  <h2>Story map</h2>
-  <iframe src="https://uploads.knightlab.com/storymapjs/c4d67751ec5e53ff777202d2adb3476e/international-students-stress-project/index.html" frameborder="0" width="100%" height="800"></iframe>
->>>>>>> 2b1ffb963dfb567061bcd33cb10500824d43c93c
 </div>
 
 <!-- End Text component-->
@@ -199,7 +121,6 @@ However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8
 </footer>
 
 <!-- c3 script-->
-<<<<<<< HEAD
   <script type="text/javascript">
   //CHART 1
   var chart = c3.generate({
@@ -247,54 +168,11 @@ However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8
   });
   var chart3 = c3.generate({
      bindto: '#NationalityChart',
-=======
-   <script type="text/javascript">
-   //CHART 1
-
-   var chart = c3.generate({
-       bindto: '#EnrollmentbyyearChart',
-       data: {
-         x: 'columns',
-         columns: [
-           ['columns',2014, 2015, 2016, 2017, 2018],
-           ['Number of International Students',5138, 5498, 6189, 6483,6806],
-         ]
-       },
-       color: {
-         pattern: ['#ff0000', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-       }
-     });
-
-   var chart2 = c3.generate({
-     bindto: '#StressChart',
-     data: {
-       columns: [
-         ['2015 Stress(N=37,856)', 2217 ],
-         ['2016 Stress(N=51,567)', 2836],
-         ['2017 Stress(N=59,208)', 3374],
-         ['2018 Stress(N=69,598)', 4037],
-       ],
-       type: 'bar'
-     },
-     color: {
-       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2']
-     }
-   });
-   var chart2 = c3.generate({
-     bindto: '#InternationalStudentsChart',
->>>>>>> 2b1ffb963dfb567061bcd33cb10500824d43c93c
      data: {
        // iris data from R
        columns: [
-<<<<<<< HEAD
          ['International Students', 292],
          ['Other Race including white, Asian American, Black, Hispanic and Multiracial', 2622],
-=======
-         ['2015(N=80,638)', 4193],
-         ['2016(N=104,874)', 5663],
-         ['2017(N=104,659)', 6070],
-         ['2018(N=116,550)', 7109],
->>>>>>> 2b1ffb963dfb567061bcd33cb10500824d43c93c
        ],
        type : 'pie',
        onclick: function (d, i) { console.log("onclick", d, i); },
@@ -305,26 +183,6 @@ However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8
        pattern: ['#2a8dc5', '#455380']
      }
    });
-<<<<<<< HEAD
-=======
-   var chart3 = c3.generate({
-      bindto: '#NationalityChart',
-      data: {
-        // iris data from R
-        columns: [
-          ['International Students', 292],
-          ['Other Race including white, Asian American, Black, Hispanic and Multiracial', 2622],
-        ],
-        type : 'pie',
-        onclick: function (d, i) { console.log("onclick", d, i); },
-        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-      },
-      color: {
-        pattern: ['#2a8dc5', '#455380']
-      }
-    });
->>>>>>> 2b1ffb963dfb567061bcd33cb10500824d43c93c
 </script>
 </body>
 </html>
