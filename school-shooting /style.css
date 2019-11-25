@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 .navbar {
+=======
+ .navbar {
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 font-family: 'Montserrat', sans-serif;
 }
 
 .Intro{
+<<<<<<< HEAD
 font-family: 'Montserrat', sans-serif;
 font-size: 1.25em;
 margin-top:25px;
@@ -18,10 +23,21 @@ max-width: 100%;
 
 h1{
 font-family: 'Montserrat';
+=======
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.25em;
+ margin-top:25px;
+ margin-bottom: 25px;
+}
+
+h1{
+font-family: 'Montserrat'；
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 font-size: 3em;
 text-align: center;
 }
 
+<<<<<<< HEAD
 .column{
 letter-spacing: 1em;
 text-align: center;
@@ -53,6 +69,42 @@ font-size: 1em;
 max-width: 100%;
 margin-top: 24px;
 margin-bottom: 24px;
+=======
+h2{
+ font-size: 2em;
+ font-family: 'Montserrat';
+ text-align: center;
+}
+
+.chapter-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.column{
+ letter-spacing: 1em;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+body {
+ font-family: 'PT Serif', serif;
+}
+
+p{
+ line-height:180%;
+ font-family: "PT Serif"
+ color: black;
+ font-size: 1em;
+ max-width: 100%;
+ margin-top: 24px;
+ margin-bottom: 24px;
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 }
 
 .red {
@@ -64,7 +116,11 @@ color: #0052a5;
 }
 
 .img{
+<<<<<<< HEAD
 display: inline-block;
+=======
+ display: inline-block;
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 }
 
 .hero-image{
@@ -76,6 +132,7 @@ display: inline-block;
 }
 .stack-image
 {
+<<<<<<< HEAD
 width:100%;
 max-width:900px;
 margin:0 auto;
@@ -84,6 +141,16 @@ display: block;
 margin-top: 24px;
 margin-bottom: 24px;
 text-align: center;
+=======
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-top:30px;
+ display: block;
+ margin-top: 24px;
+ margin-bottom: 24px;
+ text-align: center;
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 }
 
 
@@ -92,9 +159,15 @@ margin-left:auto;
 }
 
 .navbar-brand{
+<<<<<<< HEAD
  font-family: 'Montserrat';
  color: white;
  font-size: 1.25em
+=======
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 1.25em
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 }
 
 
@@ -132,6 +205,7 @@ max-width: 100%;
 
 .graphic-container h4 {
 font-family: 'Montserrat';
+<<<<<<< HEAD
 font-size: 1.5em;
 color: #444;
 }
@@ -145,4 +219,19 @@ color: #999;
 }
 a:Hover{
 color: #0052a5;
+=======
+ font-size: 1.5em;
+ color: #444;
+}
+
+a {
+ text-decoration: none;
+ color: ##e0162b;
+}
+a:visited {
+ color: #999;
+}
+a:Hover{
+ color: #0052a5;
+>>>>>>> 8b060fda030bf1c83fffa1aea5332c53557be68d
 }
