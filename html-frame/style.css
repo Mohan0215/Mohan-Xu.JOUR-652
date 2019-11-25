@@ -1,33 +1,56 @@
-h1, footer {
-  text-align: center;
+#Intro{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25em;
+  margin-top:25px;
+  margin-bottom: 25px;
 }
-h2,h3,h4 {
-  font-family: sans-serif;
-  font-size: 32px;
+h1{
+font-family: Montserrat;
+font-size: 3em;
+text-align: center;
 }
 
-h1{
-margin-top: 30px;
-padding-top: 20px;
-font-size: 36px;
-font-family: sans-serif;
+h2{
+  font-size: 0.5em;
+  font-family: Montserrat;
+}
+
+body {
+  font-family: 'PT Serif', serif;
 }
 
 p{
-  font-family: Georgia;
-  font-size: 16px;
+  line-height:180%;
+  font-family: "PT Serif"
+  color: black;
+  font-size: 1em;
 }
 
-figcaption {
-  font-family: sans-serif;
+.red {
+color: #e0162b;
 }
 
-#byline {
-  text-align: center;
-  font-family: sans-serif;
+.blue {
+color: #0052a5;
 }
 
-footer {
- border-top: 5px solid black;
- padding: 10px;
+img{
+  display: inline-block;
+}
+
+container-fluid footer{
+ font-family: Montserrat;
+ color: white;
+ padding: 25px;
+ background-color: black;
+}
+
+
+ul.navbar-nav {
+margin-left:auto;
+}
+
+
+.navbar {
+font-family: 'Montserrat', sans-serif;
 }
