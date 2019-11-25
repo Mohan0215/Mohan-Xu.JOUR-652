@@ -68,6 +68,7 @@ color: #0052a5;
   display: block;
   margin-top: 24px;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 
@@ -112,4 +113,15 @@ color: #444;
 }
 .graphic-container h4 {
   font-size: 1.5em;
+}
+
+a:link{
+  text-decoration: none;
+  color: ##e0162b;
+}
+a:visited {
+  color: #999;
+}
+a:Hover{
+  color: #0052a5;
 }
