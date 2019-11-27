@@ -1,0 +1,150 @@
+.navbar {
+font-family: 'Montserrat', sans-serif;
+}
+
+.Intro{
+font-family: 'Montserrat', sans-serif;
+font-size: 1.25em;
+margin-top: 25px;
+margin-bottom: 25px;
+max-width: 100%;
+display: block;
+}
+
+.byline{
+font-size: 1.25em;
+font-family: 'Montserrat';
+text-align: center;
+}
+
+h1{
+font-family: 'Montserrat';
+font-size: 3em;
+text-align: center;
+}
+
+.column{
+letter-spacing: 1em;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.chapter-title {
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+font-weight: 700;
+padding-top: 20px;
+width: 100%;
+text-align: center;
+}
+
+
+body {
+font-family: 'PT Serif', serif;
+}
+
+p{
+line-height:180%;
+font-family: "PT Serif";
+color: black;
+font-size: 1em;
+max-width: 100%;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+.red {
+color: #e0162b;
+}
+
+.blue {
+color: #0052a5;
+}
+
+
+.hero-image{
+max-width: 900px;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+width: 100%;
+}
+
+.stack-image
+{
+width:100%;
+max-width:900px;
+margin:0 auto;
+padding-top:30px;
+display: block;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+
+ul.navbar-nav {
+margin-left: auto;
+}
+
+.nav{
+font-family: 'Montserrat';
+color: white;
+font-size: 1.25em;
+}
+
+
+.bg-dark {
+background:#000 !important;
+}
+
+.caption{
+width:100%;
+max-width:900px;
+margin:0 auto;
+padding-bottom:30px;
+font-family: 'Montserrat', sans-serif;
+color:#999;
+text-align: center;
+}
+
+.col-12{
+font-family: 'Montserrat';
+color: white;
+padding: 25px;
+background-color: black;
+text-align: center;
+}
+
+.graphic-container {
+padding-top:30px;
+padding-bottom:30px;
+border-top:1px solid #cdcdcd;
+border-bottom:1px solid #cdcdcd;
+font-family: 'Montserrat', sans-serif;
+margin:0 auto;
+max-width: 100%;
+}
+
+.graphic-container h4 {
+font-family: 'Montserrat';
+font-size: 1.5em;
+color: #444;
+}
+
+a {
+text-decoration: none;
+color: ##e0162b;
+}
+a:visited {
+color: #999;
+}
+a:Hover{
+color: #0052a5;
+}
+
+/* mobile phone*/
+@media only screen and (max-width: 768px){
+
+}

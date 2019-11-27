@@ -78,32 +78,50 @@
 
  <!-- END first graphic container-->
  <div class="graphic-container">
-   <h2>Examing the international student enrollment between 2014 and 2018</h2>
-  <p>Year should be 2014/2015(Fall/Spring); 2015/2016; 2016/2017;2018. The number of international students are steadily increasing.</p>
+   <h2>Examing UMD's total and international student enrollment data between 2014 and 2018</h2>
+  <p>Year should be 2014/2015(Fall/Spring); 2015/2016; 2016/2017; 2017/2018; Fall 2018. The number of international students are steadily increasing.</p>
    <div id="EnrollmentbyyearChart"></div>
    <em>Source: Data collected by UMD</em>
  </div>
 
   <div class="graphic-container">
-  <h2>The Number of Stress</h2>
+  <h2>The growing stress problem at universities</h2>
   <p> Center for Collegiate Mental Health at Penn State (CCMH)is an international practice-research network. Each year, they gathered data from more than 100 universities and colleges Counseling
   centers to understand students mental health. Here, students are defined as students receiving mental health services. The Following two charts explained how many students suffered from stress and
-  percentage of international students who seeking mental health services.
+  percentage of international students who seeking mental health services.The first chart visulize the growing number of people attending counseling centers.
   N represents the number of clinicians who are were to choose one primary concern (for example, the top-most concern) per client. Each year, stress was the top four conern. However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8% between 2015 and 2018.</P>
   <div id="StressChart"></div>
   <em>Source: Data collected by the Center for Collegiate Mental Health at Penn State University</em>
   </div>
 
   <div class="graphic-container">
-  <h2>The Number of International Students who Seek Mental health Treatments</h2>
-  <p> N represented number of students who have been asked the question,"Are you International Students?"
+  <h2>The percentage of international students who seek mental health treatments during 2014 and 2015</h2>
+  <p> Students who have been asked the question,"Are you International Students?"
   CCMH explained that "The SDS contains a number of “core” or required items as well as a larger number of
  optional items that are typically asked of students seeking services. Because counseling
   centers vary in the types of questions they ask, the total number of responses varies by
   question." Therefore, N was different.
   </p>
   <div id="InternationalStudentsChart"></div>
-  <em>Source: Data collected by the Center for Collegiate Mental Health at Penn State University</em>
+  <em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+  </div>
+
+  <div class="graphic-container">
+  <h2>The percentage of international students who seek mental health treatments during 2015 and 2016</h2>
+  <div id="InternationalStudentsChart2"></div>
+  <em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+  </div>
+
+  <div class="graphic-container">
+  <h2>The percentage of international students who seek mental health treatments during 2016 and 2017</h2>
+  <div id="InternationalStudentsChart3"></div>
+  <em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+  </div>
+
+  <div class="graphic-container">
+  <h2>The percentage of international students who seek mental health treatments during 20917 and 2018</h2>
+  <div id="InternationalStudentsChart4"></div>
+  <em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
   </div>
 
   <div class="graphic-container">
@@ -136,43 +154,103 @@
         x: 'columns',
         columns: [
           ['columns',2014, 2015, 2016, 2017, 2018],
-          ['Number of International Students',5138, 5498, 6189, 6483,6806],
+          ['Number of International Students',5138, 5498, 6189, 6483, 6806],
+          ['Number of Total Enrollment', 42748, 43808, 45178, 46991],
         ]
       },
       color: {
-        pattern: ['#ff0000', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+        pattern: ['#2a8dc5', '#455380']
       }
     });
-  var chart2 = c3.generate({
-    bindto: '#StressChart',
-    data: {
-      columns: [
-        ['2015 Stress(N=37,856)', 2217 ],
-        ['2016 Stress(N=51,567)', 2836],
-        ['2017 Stress(N=59,208)', 3374],
-        ['2018 Stress(N=69,598)', 4037],
-      ],
-      type: 'bar'
-    },
-    color: {
-      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2']
-    }
-  });
-  var chart2 = c3.generate({
-    bindto: '#InternationalStudentsChart',
-    data: {
-      columns: [
-        ['2015(N=80,638)', 4193],
-        ['2016(N=104,874)', 5663],
-        ['2017(N=104,659)', 6070],
-        ['2018(N=116,550)', 7109],
-      ],
-      type: 'bar'
-    },
-    color: {
-      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2']
-    }
-  });
+    var chart2 = c3.generate({
+      bindto: '#StressChart',
+      data: {
+        columns: [
+          ['2015 Stress(N=37,856)', 2217 ],
+          ['2016 Stress(N=51,567)', 2836],
+          ['2017 Stress(N=59,208)', 3374],
+          ['2018 Stress(N=69,598)', 4037],
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2']
+      }
+    });
+
+    var chart3 = c3.generate({
+       bindto: '#InternationalStudentsChart',
+       data: {
+         // iris data from R
+         columns: [
+           ['International Students', 4193],
+           ['Domestic Students', 76445],
+         ],
+         type : 'pie',
+         onclick: function (d, i) { console.log("onclick", d, i); },
+         onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+       },
+       color: {
+         pattern: ['#2a8dc5', '#455380']
+       }
+     });
+
+
+      var chart3 = c3.generate({
+         bindto: '#InternationalStudentsChart2',
+         data: {
+           // iris data from R
+           columns: [
+             ['International Students', 5663],
+             ['Domestic Students', 99211],
+           ],
+           type : 'pie',
+           onclick: function (d, i) { console.log("onclick", d, i); },
+           onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+           onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+         },
+         color: {
+           pattern: ['#2a8dc5', '#455380']
+         }
+       });
+
+       var chart3 = c3.generate({
+          bindto: '#InternationalStudentsChart3',
+          data: {
+            // iris data from R
+            columns: [
+              ['International Students', 6070],
+              ['Domestic Students', 98589],
+            ],
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+          },
+          color: {
+            pattern: ['#2a8dc5', '#455380']
+          }
+        });
+
+        var chart3 = c3.generate({
+           bindto: '#InternationalStudentsChart4',
+           data: {
+             // iris data from R
+             columns: [
+               ['International Students', 7109],
+               ['Domestic Students', 109441],
+             ],
+             type : 'pie',
+             onclick: function (d, i) { console.log("onclick", d, i); },
+             onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+           },
+           color: {
+             pattern: ['#2a8dc5', '#455380']
+           }
+         });
+
   var chart3 = c3.generate({
      bindto: '#NationalityChart',
      data: {
