@@ -5,15 +5,16 @@ font-family: 'Montserrat', sans-serif;
 .Intro{
 font-family: 'Montserrat', sans-serif;
 font-size: 1.25em;
-margin-top:25px;
+margin-top: 25px;
 margin-bottom: 25px;
 max-width: 100%;
+display: block;
 }
 
 .byline{
-  font-size: 1.25em;
-  font-family: 'Montserrat';
-  text-align: center;
+font-size: 1.25em;
+font-family: 'Montserrat';
+text-align: center;
 }
 
 h1{
@@ -30,14 +31,12 @@ margin-right: auto;
 }
 
 .chapter-title {
- font-family: 'Montserrat', sans-serif;
- font-size: 2em;
- font-weight: 700;
- padding-top: 20px;
- width: 100%;
- text-align: center;
- margin-top: 24px;
- margin-bottom: 24px;
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+font-weight: 700;
+padding-top: 20px;
+width: 100%;
+text-align: center;
 }
 
 
@@ -63,17 +62,16 @@ color: #e0162b;
 color: #0052a5;
 }
 
-.img{
-display: inline-block;
-}
 
 .hero-image{
-  text-align: center;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
+max-width: 900px;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+width: 100%;
 }
+
 .stack-image
 {
 width:100%;
@@ -83,18 +81,17 @@ padding-top:30px;
 display: block;
 margin-top: 24px;
 margin-bottom: 24px;
-text-align: center;
 }
 
 
 ul.navbar-nav {
-margin-left:auto;
+margin-left: auto;
 }
 
-.navbar-brand{
- font-family: 'Montserrat';
- color: white;
- font-size: 1.25em
+.nav{
+font-family: 'Montserrat';
+color: white;
+font-size: 1.25em;
 }
 
 
@@ -113,7 +110,7 @@ text-align: center;
 }
 
 .col-12{
-font-family: 'Montserrat'
+font-family: 'Montserrat';
 color: white;
 padding: 25px;
 background-color: black;
@@ -145,4 +142,9 @@ color: #999;
 }
 a:Hover{
 color: #0052a5;
+}
+
+/* mobile phone*/
+@media only screen and (max-width: 768px){
+
 }
