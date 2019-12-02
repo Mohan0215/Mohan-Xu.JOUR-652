@@ -9,6 +9,7 @@ margin-top: 25px;
 margin-bottom: 25px;
 max-width: 100%;
 display: block;
+text-align: center;
 }
 
 .byline{
@@ -70,6 +71,7 @@ margin-left: auto;
 margin-right: auto;
 height: auto;
 width: 100%;
+display: block;
 }
 
 .stack-image
@@ -115,6 +117,7 @@ color: white;
 padding: 25px;
 background-color: black;
 text-align: center;
+display: block;
 }
 
 .graphic-container {
@@ -142,6 +145,15 @@ color: #999;
 }
 a:Hover{
 color: #0052a5;
+}
+
+.container:{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.row{
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 /* mobile phone*/
