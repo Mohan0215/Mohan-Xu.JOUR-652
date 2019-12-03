@@ -1,162 +1,461 @@
-  <!DOCTYPE html>
+  <!doctype html>
+
 <html lang="en">
 <head>
-   <title>Hello Mohan </title>
- <meta Charset="utf-8">
- <meta name="viewpoint"
- content="width=device-width,initial-scale=1 shrink-to-fit=no">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
- <meta name="description"
- content="Merrill College of Journalism, UMD">
- <meta name="author" content="Your name">
+<title>Bootstrap Template</title>
+<meta name="description" content="Merrill College of Journalism, UMD">
+<meta name="author" content="Adam Marton">
 
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
- crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
- <!-- Link to stylesheet CSS  -->
- <link href="resume-style.css" rel="stylesheet">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
- integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
- crossorigin="anonymous">
+<!-- Load c3.css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+<!-- Load our CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Load d3.js and c3.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
 </head>
-
 <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Mohan Xu</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <div>
+   <img class="flag" src="flag.jpg" style="width:15px">
+<a class="navbar-brand" href="#">International Students</a>
+</div>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav mr-auto">
-  <li class="nav-item active">
-    <a class="nav-link Experience" href="#Experience">Experience<span class="sr-only">(current)</span></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#Education">Education</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#Skills">Skills</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#Contact">Contact</a>
-  </li>
-
+<ul class= "navbar-nav">
+ <li class="nav-item active">
+  <a class="nav-link" href="#Interview">Interview<span class="sr-only">(current)</span></a>
+ </li>
+ <!-- Link -->
+ <li class="nav-item">
+   <a class="nav-link" href="#Stress">Stress</a>
+ </li>
+ <!-- End Link -->
+ <li class="nav-item">
+   <a class="nav-link" href="#Services">Services</a>
+ </li>
 </ul>
 </div>
 </nav>
 
-<img src="Mohan's Banner.png" alt="Mohan's Banner" width="100%">
-
-<!-- SECTION ITEM -->
 <div class="container">
-       <div class="row">
-          <div class="col-md-8">
-        <i class="fas fa-briefcase fa-7x"></i>
-     <div id="Experience">Experience</div>
-
-       <h3 class="job-title">Staff Writer</h3>
-        <h4 class="organization">Coe College Cosmos </h4>
-        <h5 class= "date">Fall 2016- Spring 2019</h5>
-        <div class="discription">
-          <p>I wrote weekly articles and took pictures of Coe community events
-         and interviewed a variety of people </p>
-         </div>
-
-        <h3 class="job-title">Intern Writer </h3>
-        <h4 class="organization">Cangwu Evening News</h4>
-        <h5 class="date">Jun-August 2018 </h5>
-        <div  class="discription">
-        <p>I conducted interview and wrote news report on social events. I
-          also searched social media and pitched interesting stories to editors
-          for feature topics. Meanwhile, I also edited and posted news on the online
-          platform; analyze click rates and reader feedback.</p>
-        </div>
-
-         <h3 class="job-title">Communication Intern</h3>
-         <h4 class="organization">Xinhua Daily(lianyungang Center)</h4>
-         <h5 class="date">May-July 2017</h5>
-         <div class= "discription">
-         <p>I coordinated and arranged interviews with interviwees
-           via phone or email. I participated in feature reports. I also gained
-           insights about operation of media industry in China.</P>
-         </div>
-       </div>
-
-       <div class="col-md-4">
-         <i class="fas fa-graduation-cap fa-7x"></i>
-         <div id="Education">Education</div>
-            <p>Bachelor of Arts, Communication Studies, Minor in Sociology, Coe College, 2019.</P>
-
-
-
-
-
-      <i class="fas fa-tools fa-7x"></i>
-      <div id="Skills">Skills</div>
-      <div class="progress">
-             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                 <span class="sr-only">90% Complete</span>
-             </div>
-             <span class="progress-type">wordpress</span>
-             <span class="progress-completed">90%</span>
-         </div>
-         <div class="progress">
-             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                 <span class="sr-only">60% Complete</span>
-             </div>
-             <span class="progress-type">Audacity</span>
-             <span class="progress-completed">60%</span>
-         </div>
-         <div class="progress">
-             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                 <span class="sr-only">80% Complete</span>
-             </div>
-             <span class="progress-type">Communication</span>
-             <span class="progress-completed">80%</span>
-         </div>
-       </div>
- <!-- SECTION ITEM -->
+ <div class="row">
+     <div class="col-md-12">
+     <figure>
+       <img class="topper" src="topper.jpg" width="100%">
+     </figure>
+     </div>
+ </div>
 </div>
-      <div id="Contact">Contact</div>
 
-            <div class="row">
-            <div class="col-md-3">
-            <div class="github">
-              <a href="https://github.com/Mohan0215" target="_blank"><i class="fab fa-github-square fa-5x"></i></a>
-         </div>
-          </div>
-            <div class="col-md-3">
-            <div class= "linkedin">
-                 <a href="https://www.linkedin.com/in/mohan-xu-8a096b159/" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="twitter">
-                <a href="https://twitter.com/XuMohan1" target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="email">
-              <a href="mailto: mxu12310@umd.edu"><i class="fas fa-envelope-square fa-5x"></i></a>
-            </div>
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<h1>Looking at international student's stress deeply</h1>
+<h2 class="byline">Mohan Xu</h2>
+</div>
+</div>
+</div>
 
-          </div>
-         </div>
-       </div>
-<footer>&copy;copyright Mohan Xu</footer>
-   <!-- Optional JavaScript -->
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>Most college students face stress, but international students face unique challenges and stresses caused by moving far away from home into a  different culture.</p>
+
+<p>Culture shock and general school anxiety drive pressure and stress for international students, and this stress can be compounded based on how students were taught to handle stress in their native culture.</p>
+
+</div>
+</div>
+</div>
+
+<div class="Video">
+<iframe width="40%" height="400" align="center"src="https://www.youtube.com/embed/1-QNKbNdOvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>Yi-Jiun Lin, assistant director for the Counseling Service at the University of Maryland (UMD), agreed. “If we are talking about acculturative stress, then yes, research shows that international students in the U.S. experience higher acculturative stress than domestic students,” she said.
+</p>
+
+<p>Lin explained the acculturative stress typically comes from cross-cultural adjustment processes and is related to their academic, social and emotional adjustment and functioning.
+</p>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<div id="Interview">Interview</div>
+<p>Zhixuan Yu, a senior communication major from China, says that high expectations of grades and performance are the root of much of her stress.
+</p>
+<img class="interviewee" src="Yu.jpg">
+<div class="caption">Courtesy of Yu</div>
+<p>Some of those high expectations come from parents and social groups. However, Yu believes self expectations are the foremost expectation driving her stress.
+</p>
+
+<p>Yu says that because she has access to resources that both her parents and UMD provided to her, she wants to get better results.
+</p>
+
+<p>Counseling Center’s training director David Petersen seconded Yu’s thoughts.“The pressure to perform well is higher for international students because that’s the reason why there are here,” Petersen said. </p>
+
+<p>He continued to explain that international students have to work hard and staying here requires them to study hard. As Yu said, studying, and especially finals, are a challenging time.</p>
+
+<p>In addition, Yu also wants to balance studying with a social life, which adds to her stress. UMD has an organization called “Chinese Students and Scholars Association.” Yu is one of the E-Board members and needs to do a lot of things.</p>
+
+<p>A third point of pressure and stress is language barriers. Sometimes Yu still cannot understand classes very well. Yu explained she is more comfortable talking to Chinese students rather than American students. “Sometimes I am too shy to talk to native [English] speakers,” Yu said.</p>
+
+<p>Petersen also confirmed that language is connected to international students’ pressure and stress.</p>
+
+<p>He provided some examples of situations that cause stress for international students, such as “it is stressful for international students to raise hands in classes.”
+</p>
+
+<p>These accumulated pressures and stresses are part of what drove Yu to start smoking last semester.</p>
+
+<p>However, not all international students face the problems in the same way. In contrast to Yu, Praneeth Babu Yaramosu, a business analytics graduate student from India, experiences pressure and stress differently. He feels he can handle school life pressure and stress well because of his Indian background. He is more comfortable in English and always prepared very well.</p>
+
+<p>“My pressure is about my future career and how to find a place for me in society,” he said.</p>
+
+<p>In addition to Yu and Yaramosu’s thoughts on the sources and aspects of their pressure, Petersen believed that loneliness and homesickness are also factors that influence international students’ pressure and stress. For international students, it is difficult and less possible for them to visit home often because of time and money. Also, Petersen said the lack of nearby support system is a factor influencing international students to have stress.</p>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<div id="Stress">Stress</div>
+<p>According to Inside Higher Ed, “Research suggests that international students are less likely than domestic students to seek mental health treatment -- or even be aware of the availability of services.”</p>
+<p>Yu always has ways of coping with stress, but going to counseling is not something that she would pursue. She chooses other avenues, such as watching television series, looking at idols’ performances, eating a lot or playing with her cats.
+ </p>
+</div>
+</div>
+</div>
+
+<div class="row">
+ <div class="column">
+   <img class="cat" src="cat.jpg" style="width:100%" align="left">
+   <div class="caption">Courtesy of Yu</div>
+ </div>
+ <div class="column">
+   <img class="food" src="food.jpg" style="width:100%" align="center">
+   <div class="caption">Unsplash</div>
+ </div>
+ <div class="column">
+   <img class="TV" src="TV.jpg" style="width:100%" align="right" >
+   <div class="caption">Hybale</div>
+ </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>If Yaramosu experiences stress, he plays an online game called “Defense of the Ancients."</p>
+
+<p>In addition, Yu added, “I feel more American students seek help in the counseling center compared to international students.”</p>
+
+<p>Yu is correct. International students make up a small portion of the students who seek help in the UMD counseling center. 10% identify as international students, 50% are white students and 21% are Asian American students.</p>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<img class="building" src="shoemaker.jpg">
+<div class="caption">Courtesy of UMD's Counseling Center</div>
+</div>
+</div>
+</div>
+
+
+<div class="graphic-container">
+<h3>What nationality are students likely to come to seek counseling service at UMD in 2018?</h3>
+<h5>2018 Annual Report showed that there were 2,914 counseling service intake appointments.</h5>
+<div id="NationalityChart"></div>
+<em>Source: Data collected by UMD Counseling Center</em>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>However, Petersen believed that 10% is a pretty good number for a minority population to come because “I am pleased that international students are aware of our services and believe that seeking help is a good idea.”</p>
+
+<p>UMD is not the only school where international students face stress and go to the counseling center. Other schools, such as the University of Michigan, Kansas State University, and Texas A&M University, also have these statistics.</p>
+</div>
+</div>
+</div>
+
+<div class="graphic-container">
+<h4>Story Map</h4>
+<iframe class="map" src="https://uploads.knightlab.com/storymapjs/c4d67751ec5e53ff777202d2adb3476e/international-students-stress-project/index.html" frameborder="0" width="60%" height="700"></iframe>
+ </div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>“I think sometimes people have misunderstandings about what happened,” Petersen said. “Getting support is helping you [students]think about different perspectives and if there is some strategies that can be helpful.”</p>
+
+<p>
+Susan Ellis Dougherty, UMD’s International Student & Scholar Services’s advisor said, “The level of reported stress may also be impacted by cultural reticence to admit to stress.” </p>
+
+<p>That is why some international students deny to seek help in the counseling center because they believed that stress is a personal weakness rather than illness.
+</p>
+
+<p>More broadly, Center for Collegiate Mental Health at Penn State (CCMH) provides more statistics to show that international students would not like to seek help in counseling centers.
+</p>
+</div>
+</div>
+</div>
+
+<div class="graphic-container">
+<h3>The growing stress problem at universities</h3>
+<h5> Center for Collegiate Mental Health at Penn State (CCMH)is an international practice-research network. Each year, they gathered data from more than 100 universities and colleges Counseling
+centers to understand students mental health. Here, students are defined as students receiving mental health services. The Following two charts explained how many students suffered from stress and
+percentage of international students who seeking mental health services.The first chart visulize the growing number of people attending counseling centers.
+N represents the number of clinicians who are were to choose one primary concern (for example, the top-most concern) per client. Each year, stress was the top four conern. However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8% between 2015 and 2018.</h5>
+<div id="StressChart"></div>
+<em>Source: Data collected by the Center for Collegiate Mental Health at Penn State University</em>
+</div>
+
+<div class="graphic-container">
+<h3>The percentage of international students who seek mental health treatments during 2014 and 2015</h3>
+<h5> Students who have been asked the question,"Are you International Students?"
+CCMH explained that "The SDS contains a number of “core” or required items as well as a larger number of
+optional items that are typically asked of students seeking services. Because counseling
+centers vary in the types of questions they ask, the total number of responses varies by
+question." Therefore, N was different.
+</h5>
+<div id="InternationalStudentsChart"></div>
+<em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+</div>
+
+<div class="graphic-container">
+<h3>The percentage of international students who seek mental health treatments during 2015 and 2016</h3>
+<div id="InternationalStudentsChart2"></div>
+<em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+</div>
+
+<div class="graphic-container">
+<h3>The percentage of international students who seek mental health treatments during 2016 and 2017</h3>
+<div id="InternationalStudentsChart3"></div>
+<em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+</div>
+
+<div class="graphic-container">
+<h3>The percentage of international students who seek mental health treatments during 2017 and 2018</h3>
+<div id="InternationalStudentsChart4"></div>
+<em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<div id="Services">Services</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>The enrollment rate of international students is increasing. “Therefore, more attention is paid on how to better support them [international students] when they are here,” Lin said.</p>
+</div>
+</div>
+</div>
+
+<div class="graphic-container">
+<h3>Examing UMD's total and international student enrollment data between 2014 and 2018</h3>
+<h5>Year should be 2014/2015(Fall/Spring); 2015/2016; 2016/2017; 2017/2018; Fall 2018. The number of international students are steadily increasing.</h5>
+<div id="EnrollmentbyyearChart">
+<em>Source: Data collected by UMD</em>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<p>“The university is aware of the unique challenges and issues our international students face,” Lin added.</p>
+
+<p>International students have multiple choices to seek various services at the Counseling Center, such as International Student Support Group, anxiety/depression workshops, individual counseling, according to Lin.</p>
+
+<p>Petersen is the facilitator for the International Student Support Group (ISSG), a group where students come together and discuss with each other. Peterson said the purpose of ISSG is to “calm down.” Therefore, he said it is okay to come even if students only feel lonely or are having trouble with professors.</p>
+
+<p>ISSG does not always have a big group compared to three or four years ago, according to Petersen. Asian students such as China and South Korea students come here frequently compared to other nationalities.</p>
+
+<p>Furthermore, Petersen mentioned that the Counseling Center provides individual counseling and career counseling to international students.</p>
+
+<p>Lin explained that different departments also provide services and help to international students and gave some examples.
+</p>
+
+<p> She said campus provides training to faculty and staff to increase their understanding and sensitivity of unique issues and challenges faced by international students as they work with them.
+</p>
+
+<p>Meanwhile, the ISSS also “trained its staff to recognize the symptoms of stress and the cultural differences in how stress may present in an individual,” Dougherty said.</p>
+
+<p>Besides, Dougherty said ISSS also work with the Counseling Center and Health Center to offer workshops on “stress management, raise awareness of academic and personal stress, and refer international students to resources on campus and in the community for support in managing stress.”</p>
+
+</div>
+</div>
+</div>
+
+
+<!-- End Text component-->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--Footer -->
+<div class="container-fluid footer">
+<div class="row">
+<div class="col-12">
+Copyright 2019. Mohan Xu.
+</div>
+</div>
+</div>
+<!-- Footer-->
+
+<!-- c3 script-->
+<script type="text/javascript">
+//CHART 1
+var chart = c3.generate({
+   bindto: '#EnrollmentbyyearChart',
+   data: {
+     x: 'columns',
+     columns: [
+       ['columns',2014, 2015, 2016, 2017, 2018],
+       ['Number of International Students',5138, 5498, 6189, 6483, 6806],
+       ['Number of Total Enrollment', 42748, 43808, 45178, 46991],
+     ]
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380']
+   }
+ });
+ var chart2 = c3.generate({
+   bindto: '#StressChart',
+   data: {
+     columns: [
+       ['2015 Stress(N=37,856)', 2217 ],
+       ['2016 Stress(N=51,567)', 2836],
+       ['2017 Stress(N=59,208)', 3374],
+       ['2018 Stress(N=69,598)', 4037],
+     ],
+     type: 'bar'
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2']
+   }
+ });
+ var chart3 = c3.generate({
+    bindto: '#InternationalStudentsChart',
+    data: {
+      // iris data from R
+      columns: [
+        ['International Students', 4193],
+        ['Domestic Students', 76445],
+      ],
+      type : 'pie',
+      onclick: function (d, i) { console.log("onclick", d, i); },
+      onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+      onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+    },
+    color: {
+      pattern: ['#2a8dc5', '#455380']
+    }
+  });
+   var chart3 = c3.generate({
+      bindto: '#InternationalStudentsChart2',
+      data: {
+        // iris data from R
+        columns: [
+          ['International Students', 5663],
+          ['Domestic Students', 99211],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380']
+      }
+    });
+    var chart3 = c3.generate({
+       bindto: '#InternationalStudentsChart3',
+       data: {
+         // iris data from R
+         columns: [
+           ['International Students', 6070],
+           ['Domestic Students', 98589],
+         ],
+         type : 'pie',
+         onclick: function (d, i) { console.log("onclick", d, i); },
+         onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+       },
+       color: {
+         pattern: ['#2a8dc5', '#455380']
+       }
+     });
+     var chart3 = c3.generate({
+        bindto: '#InternationalStudentsChart4',
+        data: {
+          // iris data from R
+          columns: [
+            ['International Students', 7109],
+            ['Domestic Students', 109441],
+          ],
+          type : 'pie',
+          onclick: function (d, i) { console.log("onclick", d, i); },
+          onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+          onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380']
+        }
+      });
+var chart3 = c3.generate({
+  bindto: '#NationalityChart',
+  data: {
+    // iris data from R
+    columns: [
+      ['International Students', 292],
+      ['Domestic Students', 2622],
+    ],
+    type : 'pie',
+    onclick: function (d, i) { console.log("onclick", d, i); },
+    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+  },
+  color: {
+    pattern: ['#2a8dc5', '#455380']
+  }
+});
+</script>
 </body>
 </html>
+
