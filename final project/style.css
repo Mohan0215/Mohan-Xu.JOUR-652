@@ -1,9 +1,9 @@
 .navbar {
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat';
 }
 
 .byline{
-font-size: 1.25em;
+font-size: 2.5em;
 font-family: 'Montserrat';
 text-align: center;
 }
@@ -14,19 +14,79 @@ font-size: 3em;
 text-align: center;
 }
 
+#Interview {
+font-size: 1.5em;
+font-family: 'Montserrat';
+text-align: center;
+color: blue;
+}
 
-body {
-font-family: 'PT Serif';
+#Stress{
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
+ }
+
+#Services{
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
+}
+
+h4{
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
+}
+
+h3{
+ text-align: center;
+ font-family: 'Montserrat';
+ font-size: 1.5em;
+ color: black;
+}
+
+h5{
+ font-size: 1em;
+ font-family: 'Montserrat';
+ text-align: center;
+}
+
+.interviewee{
+ display: block;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.Video {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.map{
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+.building {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 
 p{
 line-height:180%;
-font-family: "PT Serif";
+font-family: "Georigia";
 color: black;
-font-size: 1em;
-max-width: 100%;
-margin-top: 24px;
-margin-bottom: 24px;
+font-size: 1.25em;
 }
 
 ul.navbar-nav {
@@ -45,13 +105,16 @@ background:#000 !important;
 }
 
 .caption{
-width:100%;
-max-width:900px;
-margin:0 auto;
-padding-bottom:30px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat';
 color:#999;
 text-align: center;
+}
+
+.column {
+ float: left;
+ width: 33.33%;
+ padding: 5px;
+ margin: auto;
 }
 
 .col-12{
@@ -63,131 +126,26 @@ text-align: center;
 display: block;
 }
 
+
 .graphic-container {
-padding-top:30px;
-padding-bottom:30px;
-border-top:1px solid #cdcdcd;
-border-bottom:1px solid #cdcdcd;
-font-family: 'Montserrat', sans-serif;
-margin:0 auto;
-max-width: 100%;
+font-family: 'Georigia';
+width: 45%;
+height: 500;
+text-align: center;
+margin-top:24px;
+margin-bottom: 24px;
+margin-right: auto;
+margin-left: auto;
 }
 
-a {
-text-decoration: none;
-color: ##e0162b;
-}
-a:visited {
-color: #999;
-}
-a:Hover{
-color: #0052a5;
+.body{
+ font-family: 'Georigia';
 }
 
-.container:{
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-.row{
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-/* mobile phone*/
-@media only screen and (max-width: 768px){
-
+.container{
+margin-top: 24px;
+margin-bottom: 24px;
+border-left: 10px;
+border-right: 10px;
 }
