@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
 font-family: 'Montserrat';
 }
 
@@ -22,43 +22,44 @@ color: blue;
 }
 
 #Stress{
-  font-size: 1.5em;
-  font-family: 'Montserrat';
-  text-align: center;
-  color: blue;
-  }
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
+ }
 
 #Services{
-  font-size: 1.5em;
-  font-family: 'Montserrat';
-  text-align: center;
-  color: blue;
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
 }
 
 h4{
-  font-size: 1.5em;
-  font-family: 'Montserrat';
-  text-align: center;
+ font-size: 1.5em;
+ font-family: 'Montserrat';
+ text-align: center;
+ color: blue;
 }
 
 h3{
-  text-align: center;
-  font-family: 'Montserrat';
-  font-size: 1.5em;
-  color: black;
+ text-align: center;
+ font-family: 'Montserrat';
+ font-size: 1.5em;
+ color: black;
 }
 
 h5{
-  font-size: 1em;
-  font-family: 'Montserrat';
-  text-align: center;
+ font-size: 1em;
+ font-family: 'Montserrat';
+ text-align: center;
 }
 
 .interviewee{
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+ display: block;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .Video {
@@ -69,10 +70,10 @@ display: block;
 }
 
 .map{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
 }
 .building {
 text-align: center;
@@ -110,10 +111,10 @@ text-align: center;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin: auto;
+ float: left;
+ width: 33.33%;
+ padding: 5px;
+ margin: auto;
 }
 
 .col-12{
@@ -138,7 +139,7 @@ margin-left: auto;
 }
 
 .body{
-  font-family: 'Georigia';
+ font-family: 'Georigia';
 }
 
 
