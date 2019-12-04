@@ -93,7 +93,11 @@ line-height:180%;
 font-family: "Georigia";
 color: black;
 font-size: 1.25em;
+<<<<<<< HEAD
 text-align: left;
+=======
+text-align: left; 
+>>>>>>> 4b8b572dfdda8cf642ef372cff42a74449d862c3
 }
 
 ul.navbar-nav {
