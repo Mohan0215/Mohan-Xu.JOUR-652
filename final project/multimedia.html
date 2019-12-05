@@ -152,6 +152,7 @@
 </div>
 </div>
 
+<div class="container">
 <div class="row">
 <div class="column">
 <img class="cat" src="cat.jpg" style="width:100%" align="left">
@@ -164,6 +165,7 @@
 <div class="column">
 <img class="TV" src="TV.jpg" style="width:100%" align="right" >
 <div class="caption">Hybale</div>
+</div>
 </div>
 </div>
 
@@ -209,7 +211,6 @@
 </div>
 
 <div class="graphic-container">
-<h4>Story Map</h4>
 <iframe class="map" src="https://uploads.knightlab.com/storymapjs/c4d67751ec5e53ff777202d2adb3476e/international-students-stress-project/index.html" frameborder="0" width="100%" height="500"></iframe>
 </div>
 
@@ -233,9 +234,7 @@ Susan Ellis Dougherty, UMD’s International Student & Scholar Services’s advi
 <div class="graphic-container">
 <h3>The growing stress problem at universities</h3>
 <h5> Center for Collegiate Mental Health at Penn State (CCMH)is an international practice-research network. Each year, they gathered data from more than 100 universities and colleges Counseling
-centers to understand students mental health. Here, students are defined as students receiving mental health services. The Following two charts explained how many students suffered from stress and
-percentage of international students who seeking mental health services.The first chart visulize the growing number of people attending counseling centers.
-N represents the number of clinicians who are were to choose one primary concern (for example, the top-most concern) per client. Each year, stress was the top four conern. However, the percentage of stress was different. It was 5.9%, 5.5%, 5.7% and 5.8% between 2015 and 2018.</h5>
+centers to understand students mental health. Among students who attend counseling stress is often identified as one of the top four concerns. Between 2015 and 2018, 5 to 6% of clinicians found that stress was the most pressing concern for their clients. Numbers below represent total number of students.</h5>
 <div id="StressChart"></div>
 <em>Source: Data collected by the Center for Collegiate Mental Health at Penn State University</em>
 </div>
@@ -246,7 +245,7 @@ N represents the number of clinicians who are were to choose one primary concern
 CCMH explained that "The SDS contains a number of “core” or required items as well as a larger number of
 optional items that are typically asked of students seeking services. Because counseling
 centers vary in the types of questions they ask, the total number of responses varies by
-question." Therefore, N was different.
+question."
 </h5>
 <div id="InternationalStudentsChart"></div>
 <em>Source: Data Collected by the Center for Collegiate Mental Health at Penn State University</em>
@@ -289,7 +288,7 @@ question." Therefore, N was different.
 
 <div class="graphic-container">
 <h3>Examing UMD's total and international student enrollment data between 2014 and 2018</h3>
-<h5>Year should be 2014/2015(Fall/Spring); 2015/2016; 2016/2017; 2017/2018; Fall 2018. The number of international students are steadily increasing.</h5>
+<h5>The number of international students are steadily increasing.</h5>
 <div id="EnrollmentbyyearChart"></div>
 <em>Source: Collected by UMD</em>
 </div>
@@ -344,17 +343,19 @@ Copyright 2019. Mohan Xu.
 var chart = c3.generate({
 bindto: '#EnrollmentbyyearChart',
 data: {
- x: 'columns',
  columns: [
-   ['columns',2014, 2015, 2016, 2017, 2018],
-   ['Number of International Students',5138, 5498, 6189, 6483, 6806],
-   ['Number of Total Enrollment', 42748, 43808, 45178, 46991],
+   ['International Students',5138, 5498, 6189, 6483, 6806],
+   ['Total Students Enrollment', 42748, 43808, 45178, 46991],
  ]
 },
-color: {
- pattern: ['#2a8dc5', '#455380']
+axis: {
+  x:{
+    type: 'category',
+    categories: ['2014/2015', ' 2015/2016', '2016/2017', '2017/2018', 'Fall 2018']
+  }
 }
 });
+
 var chart2 = c3.generate({
 bindto: '#StressChart',
 data: {
