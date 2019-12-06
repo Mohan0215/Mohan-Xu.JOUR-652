@@ -13,21 +13,21 @@ font-size: 3em;
 text-align: center;
 }
 
-#Interview {
+#subheadline{
 font-size: 1.5em;
 font-family: 'Montserrat';
 text-align: center;
 color: blue;
 }
 
-#Stress{
+#subheadline2{
  font-size: 1.5em;
  font-family: 'Montserrat';
  text-align: center;
  color: blue;
  }
 
-#Services{
+#subheadline3{
  font-size: 1.5em;
  font-family: 'Montserrat';
  text-align: center;
@@ -54,7 +54,7 @@ h5{
  text-align: center;
 }
 
-.interviewee{
+.interviewee {
  display: block;
  text-align: center;
  margin-left: auto;
@@ -68,11 +68,20 @@ h5{
   margin-right: auto;
 }
 
-.Video {
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-display: block;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  padding-bottom: 20px;
 }
 
 .map{
@@ -93,12 +102,10 @@ line-height:180%;
 font-family: "Georigia";
 color: black;
 font-size: 1.25em;
-<<<<<<< HEAD
 text-align: left;
-=======
 text-align: left;
->>>>>>> 4b8b572dfdda8cf642ef372cff42a74449d862c3
 }
+
 
 ul.navbar-nav {
 margin-left: auto;
@@ -154,10 +161,6 @@ margin-left: auto;
 }
 
 
-.container{
-margin-top: 24px;
-margin-bottom: 24px;
-}
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
